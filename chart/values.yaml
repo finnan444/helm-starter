@@ -6,7 +6,6 @@ replicaCount: 1
 
 image:
   repository: registry.gitlab.com
-  tag: 0.0.1
   pullPolicy: IfNotPresent
 
 nameOverride: ""
