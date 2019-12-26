@@ -12,12 +12,11 @@ nameOverride: ""
 fullnameOverride: ""
 
 imageCredentials:
+  enabled: true
   registry: registry.gitlab.com
   username: gitlab-ci-token
   #  password: xxx
-  name: gitlab-registry-secret
-imagePullSecrets:
-  - name: gitlab-registry-secret
+#  name: gitlab-registry-secret
 
 serviceAccount:
   create: false
